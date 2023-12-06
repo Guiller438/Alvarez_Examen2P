@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Alvarez_Examen2P.AlvarezViews.AlvarezNotePage"
+             Title="Guillermo Alvarez Notas"
+             BackgroundColor="#F2F2F2">
+
+    <VerticalStackLayout Spacing="20" Margin="15">
+        <Frame BackgroundColor="White" CornerRadius="10" HasShadow="True" Padding="10">
+            <Editor x:Name="TextEditor"
+                    Placeholder="Ingresa tu nota:"
+                    Text="{Binding Text}" 
+                    HeightRequest="150"
+                    FontSize="16"
+                    TextColor="Black"/>
+        </Frame>
+
+        <!-- Añadir un ContentView para ajustar el Padding -->
+        <ContentView Padding="10">
+            <Grid ColumnDefinitions="*,*" ColumnSpacing="10">
+                <Button Text="Guardar tu nota"
+                        Clicked="SaveButton_Clicked"
+                        BackgroundColor="#4CAF50"
+                        TextColor="White"
+                        CornerRadius="5"
+                        HeightRequest="50"/>
+
+                <Button Grid.Column="1"
+                        Text="Eliminar"
+                        Clicked="DeleteButton_Clicked"
+                        BackgroundColor="#FF5733"
+                        TextColor="White"
+                        CornerRadius="5"
+                        HeightRequest="50"/>
+            </Grid>
+        </ContentView>
+    </VerticalStackLayout>
+</ContentPage>

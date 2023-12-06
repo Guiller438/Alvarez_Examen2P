@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Shell
+    x:Class="Alvarez_Examen2P.AppShell"
+    xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:views="clr-namespace:Alvarez_Examen2P.AlvarezViews"
+    Shell.FlyoutBehavior="Disabled">
+
+    <TabBar>
+        <ShellContent
+            Title="Tus notas"
+            ContentTemplate="{DataTemplate views:AlvarezAllNotesPages}"
+            Icon="{OnPlatform 'notasimage.png', iOS='lapiz.png', MacCatalyst='lapiz.png'}" />
+
+        <ShellContent
+            Title="About"
+            ContentTemplate="{DataTemplate views:AlvarezAboutPage}"
+            Icon="{OnPlatform 'informacion.png', iOS='informacionchiquito.png', MacCatalyst='informacionchiquito.png'}" />
+    </TabBar>
+
+</Shell>

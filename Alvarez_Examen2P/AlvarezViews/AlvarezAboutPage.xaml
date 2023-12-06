@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:models="clr-namespace:Alvarez_Examen2P.AlvarezModels"
+             x:Class="Alvarez_Examen2P.AlvarezViews.AlvarezAboutPage"
+             BackgroundColor="#F2F2F2">
+
+    <ContentPage.BindingContext>
+        <models:AlvarezAbout />
+    </ContentPage.BindingContext>
+
+    <VerticalStackLayout Spacing="20" Margin="15">
+        <Image Source="dotnet_bot.png"
+               SemanticProperties.Description="The dot net bot waving hello!"
+               HeightRequest="80"
+               HorizontalOptions="CenterAndExpand"/>
+
+        <StackLayout Spacing="5">
+            <Label FontSize="22" FontAttributes="Bold" Text="{Binding Title}" HorizontalOptions="CenterAndExpand"/>
+            <Label FontSize="18" Text="{Binding Version}" TextColor="#666666" HorizontalOptions="CenterAndExpand"/>
+        </StackLayout>
+
+        <Label Text="{Binding Message}" FontSize="16" />
+
+        <Button Text="Learn more..."
+                Clicked="LearnMore_Clicked"
+                BackgroundColor="#3498DB"
+                TextColor="White"
+                CornerRadius="5"
+                HeightRequest="40"
+                HorizontalOptions="CenterAndExpand"/>
+    </VerticalStackLayout>
+
+</ContentPage>

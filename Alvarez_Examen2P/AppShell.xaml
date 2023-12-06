@@ -19,4 +19,11 @@
             ContentTemplate="{DataTemplate views:AlvarezAboutPage}"
             Icon="{OnPlatform 'informacion.png', iOS='informacionchiquito.png', MacCatalyst='informacionchiquito.png'}" />
     </FlyoutItem>
+    
+    <FlyoutItem Title="Contar">
+        <ShellContent
+            Title="Contar"
+            ContentTemplate="{DataTemplate views:Contador}"
+            Icon="{OnPlatform 'informacion.png', iOS='informacionchiquito.png', MacCatalyst='informacionchiquito.png'}" />
+    </FlyoutItem>
 </Shell>

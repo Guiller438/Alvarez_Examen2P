@@ -10,7 +10,7 @@
         <Entry x:Name="inputEntry" />
 
         <!-- Botón para realizar el análisis -->
-        <Button Text="Analizar" Clicked="Contar" />
+        <Button Text="Contar" Clicked="Contar" />
 
         <!-- Resultados -->
         <Label Text="Resultados:" />

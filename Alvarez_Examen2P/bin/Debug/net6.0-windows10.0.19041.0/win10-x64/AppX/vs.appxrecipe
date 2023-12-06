@@ -29,7 +29,7 @@
     <AppXManifest Include="C:\Users\julis\OneDrive\Desktop\ExamenGiullermoAlvarez\Alvarez_Examen2P\bin\Debug\net6.0-windows10.0.19041.0\win10-x64\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2023-12-06T13:35:19.420</Modified>
+      <Modified>2023-12-06T13:38:06.928</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
@@ -43,11 +43,11 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\julis\OneDrive\Desktop\ExamenGiullermoAlvarez\Alvarez_Examen2P\bin\Debug\net6.0-windows10.0.19041.0\win10-x64\Alvarez_Examen2P.dll">
       <PackagePath>Alvarez_Examen2P.dll</PackagePath>
-      <Modified>2023-12-06T13:35:17.377</Modified>
+      <Modified>2023-12-06T13:38:05.376</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\julis\OneDrive\Desktop\ExamenGiullermoAlvarez\Alvarez_Examen2P\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\apphost.exe">
       <PackagePath>Alvarez_Examen2P.exe</PackagePath>
-      <Modified>2023-12-06T13:35:17.383</Modified>
+      <Modified>2023-12-06T13:38:05.397</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\julis\OneDrive\Desktop\ExamenGiullermoAlvarez\Alvarez_Examen2P\bin\Debug\net6.0-windows10.0.19041.0\win10-x64\Alvarez_Examen2P.deps.json">
       <PackagePath>Alvarez_Examen2P.deps.json</PackagePath>

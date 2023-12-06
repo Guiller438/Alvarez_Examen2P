@@ -6,16 +6,17 @@
     xmlns:views="clr-namespace:Alvarez_Examen2P.AlvarezViews"
     Shell.FlyoutBehavior="Disabled">
 
-    <TabBar>
+    <FlyoutItem Title="Tus notas">
         <ShellContent
             Title="Tus notas"
             ContentTemplate="{DataTemplate views:AlvarezAllNotesPages}"
             Icon="{OnPlatform 'notasimage.png', iOS='lapiz.png', MacCatalyst='lapiz.png'}" />
+    </FlyoutItem>
 
+    <FlyoutItem Title="Tus notas">
         <ShellContent
             Title="About"
             ContentTemplate="{DataTemplate views:AlvarezAboutPage}"
             Icon="{OnPlatform 'informacion.png', iOS='informacionchiquito.png', MacCatalyst='informacionchiquito.png'}" />
-    </TabBar>
-
+    </FlyoutItem>
 </Shell>

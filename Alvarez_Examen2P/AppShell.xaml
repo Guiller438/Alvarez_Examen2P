@@ -9,7 +9,7 @@
     <FlyoutItem Title="Tus notas">
         <ShellContent
             Title="Tus notas"
-            ContentTemplate="{DataTemplate views:AlvarezAllNotesPages}"
+            ContentTemplate="{DataTemplate views:Contador}"
             Icon="{OnPlatform 'notasimage.png', iOS='lapiz.png', MacCatalyst='lapiz.png'}" />
     </FlyoutItem>
 

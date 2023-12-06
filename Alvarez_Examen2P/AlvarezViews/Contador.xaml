@@ -6,8 +6,14 @@
              BackgroundColor="#F2F2F2">
 
     <FlexLayout Direction="Column" JustifyContent="Center" AlignItems="Center">
-        <Label Text="Ingresa el texto a contar:" />
-        <Entry x:Name="inputEntry" />
+        <Frame BackgroundColor="White" CornerRadius="10" HasShadow="True" Padding="10">
+            <Editor x:Name="inputEntry"
+                    Placeholder="Ingresa tu nota:"
+                    Text="{Binding Text}" 
+                    HeightRequest="150"
+                    FontSize="16"
+                    TextColor="Black"/>
+        </Frame>
 
         <!-- Botón para realizar el análisis -->
         <Button Text="Contar" Clicked="Contar" />

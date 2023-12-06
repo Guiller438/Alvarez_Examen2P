@@ -49,10 +49,19 @@
 	</ItemGroup>
 
 	<ItemGroup>
+	  <Compile Update="AlvarezViews\Contador.xaml.cs">
+	    <DependentUpon>Contador.xaml</DependentUpon>
+	  </Compile>
+	</ItemGroup>
+
+	<ItemGroup>
 	  <MauiXaml Update="AlvarezViews\AlvarezAboutPage.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
 	  <MauiXaml Update="AlvarezViews\AlvarezAllNotesPages.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	  <MauiXaml Update="AlvarezViews\Contador.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
 	  <MauiXaml Update="AlvarezViews\AlvarezNotePage.xaml">

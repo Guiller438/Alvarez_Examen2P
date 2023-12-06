@@ -29,13 +29,13 @@
     <AppXManifest Include="C:\Users\julis\OneDrive\Desktop\ExamenGiullermoAlvarez\Alvarez_Examen2P\bin\Debug\net6.0-windows10.0.19041.0\win10-x64\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2023-12-06T13:07:09.143</Modified>
+      <Modified>2023-12-06T13:35:19.420</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="C:\Users\julis\OneDrive\Desktop\ExamenGiullermoAlvarez\Alvarez_Examen2P\bin\Debug\net6.0-windows10.0.19041.0\win10-x64\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2023-12-06T12:59:42.085</Modified>
+      <Modified>2023-12-06T13:35:19.055</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\julis\OneDrive\Desktop\ExamenGiullermoAlvarez\Alvarez_Examen2P\bin\Debug\net6.0-windows10.0.19041.0\win10-x64\Alvarez_Examen2P.runtimeconfig.json">
       <PackagePath>Alvarez_Examen2P.runtimeconfig.json</PackagePath>
@@ -43,15 +43,15 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\julis\OneDrive\Desktop\ExamenGiullermoAlvarez\Alvarez_Examen2P\bin\Debug\net6.0-windows10.0.19041.0\win10-x64\Alvarez_Examen2P.dll">
       <PackagePath>Alvarez_Examen2P.dll</PackagePath>
-      <Modified>2023-12-06T13:07:08.060</Modified>
+      <Modified>2023-12-06T13:35:17.377</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\julis\OneDrive\Desktop\ExamenGiullermoAlvarez\Alvarez_Examen2P\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\apphost.exe">
       <PackagePath>Alvarez_Examen2P.exe</PackagePath>
-      <Modified>2023-12-06T13:07:08.067</Modified>
+      <Modified>2023-12-06T13:35:17.383</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\julis\OneDrive\Desktop\ExamenGiullermoAlvarez\Alvarez_Examen2P\bin\Debug\net6.0-windows10.0.19041.0\win10-x64\Alvarez_Examen2P.deps.json">
       <PackagePath>Alvarez_Examen2P.deps.json</PackagePath>
-      <Modified>2023-12-06T12:59:41.910</Modified>
+      <Modified>2023-12-06T13:35:18.831</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\julis\.nuget\packages\microsoft.netcore.app.runtime.win-x64\6.0.18\runtimes\win-x64\lib\net6.0\Microsoft.CSharp.dll">
       <PackagePath>Microsoft.CSharp.dll</PackagePath>

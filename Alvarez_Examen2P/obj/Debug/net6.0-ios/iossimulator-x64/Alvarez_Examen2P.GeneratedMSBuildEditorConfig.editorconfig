@@ -28,6 +28,12 @@ build_metadata.AdditionalFiles.ManifestResourceName = Alvarez_Examen2P.AlvarezVi
 build_metadata.AdditionalFiles.TargetPath = AlvarezViews\AlvarezNotePage.xaml
 build_metadata.AdditionalFiles.RelativePath = AlvarezViews\AlvarezNotePage.xaml
 
+[C:/Users/julis/OneDrive/Desktop/ExamenGiullermoAlvarez/Alvarez_Examen2P/AlvarezViews/Contador.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = Alvarez_Examen2P.AlvarezViews.Contador.xaml
+build_metadata.AdditionalFiles.TargetPath = AlvarezViews\Contador.xaml
+build_metadata.AdditionalFiles.RelativePath = AlvarezViews\Contador.xaml
+
 [C:/Users/julis/OneDrive/Desktop/ExamenGiullermoAlvarez/Alvarez_Examen2P/App.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = Alvarez_Examen2P.App.xaml

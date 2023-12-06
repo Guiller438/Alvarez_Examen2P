@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Alvarez_Examen2P.AlvarezViews.Contador"
+             Title="Este es el contador"
+             BackgroundColor="#F2F2F2">
+
+    <FlexLayout Direction="Column" JustifyContent="Center" AlignItems="Center">
+        <Label Text="Ingresa el texto a contar:" />
+        <Entry x:Name="inputEntry" />
+
+        <!-- Botón para realizar el análisis -->
+        <Button Text="Analizar" Clicked="Contar" />
+
+        <!-- Resultados -->
+        <Label Text="Resultados:" />
+        <Label x:Name="resultLabel" />
+
+        <!-- Botón para limpiar la pantalla -->
+        <Button Text="Limpiar" Clicked="OnClearClicked" />
+    </FlexLayout>
+</ContentPage>
